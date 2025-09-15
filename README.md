@@ -7,6 +7,7 @@
 ![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-blue?style=for-the-badge&logo=tailwind-css)
+![Build Status](https://img.shields.io/github/actions/workflow/status/Nicolas-carmona16/courier-sync-feature3-frontend/ci-cd.yml?style=for-the-badge&label=Build)
 
 </div>
 
