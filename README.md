@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# CourierSync – Feature 3: Gestión de Clientes (Frontend)
 
-First, run the development server:
+<div align="center">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Next.js](https://img.shields.io/badge/Next.js-15.5.3-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-blue?style=for-the-badge&logo=tailwind-css)
+
+</div>
+
+## 📌 Descripción General
+Este repositorio contiene únicamente el **frontend** de la Feature 3 – Gestión de Clientes del sistema CourierSync.
+
+CourierSync es un sistema web diseñado para optimizar los procesos logísticos de transporte y distribución de mercancías, mejorando la eficiencia operativa, la trazabilidad de los envíos y la experiencia de los clientes. La Feature 3 centraliza la información de los usuarios finales y ofrece herramientas para personalizar servicios, agilizar la comunicación y fortalecer la relación empresa–cliente.
+
+## 🛠️ Tecnologías Utilizadas
+
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+
+## 📁 Estructura del Proyecto
+
+```
+├── app/           # Páginas y componentes principales
+├── public/        # Archivos estáticos
+├── package.json   # Dependencias y scripts
+├── next.config.ts # Configuración de Next.js
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Objetivos del Proyecto
+- Centralizar la información de clientes en un módulo único y seguro.
+- Facilitar el registro y actualización de perfiles de clientes.
+- Permitir la consulta del historial de envíos por cliente.
+- Implementar notificaciones personalizadas (promociones y actualizaciones).
+- Medir la satisfacción del cliente mediante dashboards interactivos.
+- Garantizar accesibilidad y cumplimiento de estándares de seguridad.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Alcance
+**Incluye:**
+- CRUD de clientes (registro y actualización).
+- Historial de envíos asociado a cada cliente.
+- Notificaciones de promociones.
+- Dashboard de satisfacción y métricas de experiencia.
 
-## Learn More
+**No incluye:**
+- Gestión de envíos (Feature 1).
+- Optimización de rutas (Feature 2).
+- Inventario en tránsito (Feature 4).
+- Facturación y pagos (Feature 5).
 
-To learn more about Next.js, take a look at the following resources:
+## 👥 Roles y Stakeholders
+- **Product Owner:** Responsable de definir la visión y priorizar el backlog.
+- **Scrum Master:** Facilita la metodología Scrum, elimina impedimentos y asegura la correcta gestión del equipo.
+- **Development Team:** Encargado del desarrollo técnico (backend, frontend, base de datos).
+- **Stakeholders externos:** Área académica y equipos transversales de Calidad, Seguridad y DevOps.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📊 Valor para el Cliente
+La Gestión de Clientes aporta un valor estratégico al sistema CourierSync al permitir la integración de perfiles de clientes, lo que facilita la personalización de servicios y una comunicación más efectiva con los usuarios. El impacto esperado es una mayor satisfacción y retención de clientes, fortaleciendo la relación empresa–cliente y generando confianza en la prestación del servicio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Instalación y Ejecución del Frontend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clona el repositorio:**
+	```bash
+	git clone https://github.com/Nicolas-carmona16/courier-sync-feature3-frontend.git
+	```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Instala las dependencias:**
+	```bash
+	npm install
+	```
+
+3. **Ejecuta la aplicación en modo desarrollo:**
+	```bash
+	npm run dev
+	```
+
+4. Abre tu navegador en [http://localhost:3000](http://localhost:3000) para ver la aplicación.
+
+---
+
+
